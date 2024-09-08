@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0; /* Light grey for a neutral background */
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #4A4A4A; /* Medium grey for a sophisticated and professional look */
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2); /* Soft shadow for depth and readability */
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #d9d9d9; /* Professional grey form background */
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+    border: 2px solid #4a4a4a; /* Dark grey for a sleek section border */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e6e6e6; /* Lighter grey for section backgrounds */
+}
+
+legend, label {
+    font-weight: bold;
+    color: #2c2c2c; /* Darker grey for text clarity */
+    font-size: 18px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #4a4a4a;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #f0f0f0; /* Subtle grey for inputs */
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    border-color: #666666; /* Darker grey when focused */
+    background-color: #ffffff; /* White background during interaction */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 14px; /* Slightly larger padding for better interaction */
+    background-color: #4a90e2; /* Muted blue for a professional, modern look */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px; /* Increased size for the button text */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ab8; /* Slightly darker on hover */
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #4a4a4a;
+    border-radius: 8px;
+    background-color: #f7f7f7; /* Clean white for the resume output */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+#resumeOutput h2 {
+    color: #2c3e50;
+    font-size: 24px;
+}
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 4px solid #357ab8; /* Matches the button color for consistency */
+    box-shadow: 0 6px 12px rgba(53, 122, 184, 0.5);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-top: 20px;
+}
+
+.button-container a {
+    text-decoration: none;
+}
+
+button, .button {
+    padding: 12px 24px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+button:hover, .button:hover {
+    background-color: #357ab8;
+}
